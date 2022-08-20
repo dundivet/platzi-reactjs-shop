@@ -1,10 +1,16 @@
 import React from 'react';
+
 import '../styles/global.scss';
+
+import Layout from '../views/Layout';
+import Login from '../views/Login';
 
 
 const App = () => {
     return ( 
-        <h1>Hola Mundo! Bienvenidos al curso práctico de React.</h1>
+        <Layout >
+            <Login />
+        </Layout>
      );
 }
  
